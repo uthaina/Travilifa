@@ -1,0 +1,50 @@
+
+
+
+ body {
+     font-family: 'Arial', sans-serif;
+ }
+
+
+ .back {
+     background-image:url(images.jpg);
+     background-size: cover;
+     background-position: center;
+     height: 80vh;
+     display: flex;
+     align-items: center;
+     color: white;
+ }
+
+ .input-group {
+     max-width: 500px;
+ }
+
+
+ .travelers-point img {
+     border-radius: 10px;
+ }
+
+
+ .top-destinations .card {
+     transition: transform 0.3s ease;
+ }
+
+ .top-destinations .card:hover {
+     transform: scale(1.05);
+ }
+
+
+ .testimonials .card {
+     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+ }
+
+
+
+ footer {
+     color: white;
+ }
+
+ footer i {
+     margin-right: 5px;
+ }
